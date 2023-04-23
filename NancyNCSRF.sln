@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrowserSim", "BrowserSim\BrowserSim.csproj", "{668C001A-D0A6-41BA-AF28-3D4504E7742C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NancyNCSRF", "NancyNCSRF\NancyNCSRF.csproj", "{20F22A08-FD16-4347-B275-9058AB153541}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{668C001A-D0A6-41BA-AF28-3D4504E7742C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668C001A-D0A6-41BA-AF28-3D4504E7742C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668C001A-D0A6-41BA-AF28-3D4504E7742C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668C001A-D0A6-41BA-AF28-3D4504E7742C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20F22A08-FD16-4347-B275-9058AB153541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F22A08-FD16-4347-B275-9058AB153541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F22A08-FD16-4347-B275-9058AB153541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F22A08-FD16-4347-B275-9058AB153541}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03B56E1F-7001-41B6-B9C8-99BE3381973E}
+	EndGlobalSection
+EndGlobal
