@@ -7,9 +7,14 @@ namespace NancyNCSRF
     {
         public static void Main(string[] args)
         {
+            int port = 5000;
+            if (!string.IsNullOrEmpty(args[0]))
+            {
+                port = int.Parse(args[0]);
+            }
             var host = new WebHostBuilder()
                .UseContentRoot(Directory.GetCurrentDirectory())
-               .UseKestrel()
+               .UseKestrel(x => x.ListenAnyIP(port))
                .UseStartup<Startup>()
                .Build();
 
