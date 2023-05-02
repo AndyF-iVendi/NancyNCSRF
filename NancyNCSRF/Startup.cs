@@ -33,7 +33,6 @@ namespace NancyNCSRF
                 new AesEncryptionProvider(new PassphraseKeyGenerator("blahblahblah", new byte[] { 8, 2, 10, 4, 68, 120, 7, 14 })),
                 new DefaultHmacProvider(new PassphraseKeyGenerator("blahblahblah", new byte[] { 8, 2, 10, 4, 68, 120, 7, 14 })));
 
-            container.Register<CryptographyConfiguration>(csfrCryptographyConfiguration);
 
             var csrfAppStart = new CsrfApplicationStartup(csfrCryptographyConfiguration, new DefaultCsrfTokenValidator(csfrCryptographyConfiguration));
 
