@@ -36,7 +36,6 @@ namespace NancyNCSRF
 
             var csrfAppStart = new CsrfApplicationStartup(csfrCryptographyConfiguration, new DefaultCsrfTokenValidator(csfrCryptographyConfiguration));
 
-            csrfAppStart.Initialize(pipelines);
 
         }
     }
